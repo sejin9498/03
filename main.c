@@ -1,13 +1,12 @@
 #include <stdio.h>
 int main(void) {
-  char c;
-  int i;
+    char c;
 
-  printf("input a number :");
-  scanf("%c", &c);
+    printf("enter a character : ");
+    scanf("%c", &c);
 
-  i= c - '0';
-  printf("The input number is %i\n", i);
+
+    printf("the next number of %c (%d) is %c (%d)\n", c, c, c+1, c+1);
 
     return 0;
 }
