@@ -1,12 +1,14 @@
 #include <stdio.h>
 int main(void) {
-    char c;
+    int a, b;
 
-    printf("enter a character : ");
-    scanf("%c", &c);
+    printf("input a number :");
+    scanf("%d", &a);
 
+    printf("input a number :");
+    scanf("%d",&b);
 
-    printf("the next number of %c (%d) is %c (%d)\n", c, c, c+1, c+1);
-
+    printf("Dividing result is %f\n", (float)a/b);
+    
     return 0;
 }
